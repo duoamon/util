@@ -153,7 +153,9 @@
 		<module name="NestedForDepth" />
 
 		<!--Restricts nested if-else blocks to a specified depth (default = 1). -->
-		<module name="NestedIfDepth" />
+		<module name="NestedIfDepth">
+			<property name="max" value="2"/>
+		</module>
 
 		<!--Restricts nested try-catch-finally blocks to a specified depth (default 
 			= 1). -->
